@@ -1,0 +1,23 @@
+Inputs:
+- inputFile
+- outputFile
+- s1
+- s2
+
+Allez, go on va gerer les \n dans le pattern
+
+Il va falloir voir si le pattern match bien
+
+On va parcourir chaque caractère
+Si le caractère correspond au truc recherché, on ne l'affiche pas encore et on passe aux prochains caractère (truc + chaine)
+Si on arrive au bout du truc recherché, on append d'un coup, tout le replace
+
+
+
+
+Go faire une fonction qui write de facon bufferizé
+On lui donne un buffer, une taille et un truc à write
+Si ca depasse le buffer, on write tout
+Sinon on remplit le buffer
+Go faire une structure buffer
+-> C'est beau le cpp, c'est deja fait
