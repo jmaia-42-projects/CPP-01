@@ -6,7 +6,7 @@
 /*   By: jmaia <jmaia@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/12 10:39:56 by jmaia             #+#    #+#             */
-/*   Updated: 2022/05/12 12:49:17 by jmaia            ###   ########.fr       */
+/*   Updated: 2022/05/17 16:13:04 by jmaia            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,6 @@ class Zombie
 
 };
 
-Zombie	*newZombie(std::string name);
-void	randomChump(std::string name);
 Zombie	*zombieHorde(int N, std::string name);
 
 #endif
